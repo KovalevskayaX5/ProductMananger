@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 public class ManagerTest {
     Repository repository = new Repository();
     Manager manager = new Manager(repository);
-    Book book1 = new Book(1, "Война и Мир",455, "Толстой" );
-    Book book2 = new Book(2, "Гордость и Предубеждение",4545, "Остин" );
-    Book book3 = new Book(3, "Гарри Поттер",9865, "Роулинг" );
-    Smartphone smartphone1 = new Smartphone(4,"IPhone 13", 120_000,"Apple");
-    Smartphone smartphone2 = new Smartphone(5,"IPhone 8", 30_000,"Apple");
+    Book book1 = new Book(1, "Война и Мир", 455, "Толстой");
+    Book book2 = new Book(2, "Гордость и Предубеждение", 4545, "Остин");
+    Book book3 = new Book(3, "Гарри Поттер", 9865, "Роулинг");
+    Smartphone smartphone1 = new Smartphone(4, "IPhone 13", 120_000, "Apple");
+    Smartphone smartphone2 = new Smartphone(5, "IPhone 8", 30_000, "Apple");
 
     @BeforeEach
     public void setup() {

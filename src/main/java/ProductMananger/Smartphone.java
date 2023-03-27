@@ -1,4 +1,5 @@
 package ProductMananger;
+
 public class Smartphone extends Product {
     private String manufacturer;
 

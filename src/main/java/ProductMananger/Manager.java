@@ -1,11 +1,13 @@
 package ProductMananger;
+
 public class Manager {
     private Repository repository;
 
     public Manager(Repository repository) {
         this.repository = repository;
     }
-    public void add(Product product){
+
+    public void add(Product product) {
         repository.add(product);
     }
 
@@ -31,7 +33,6 @@ public class Manager {
         } else {
             return false;
         }
-
 
 
     }
