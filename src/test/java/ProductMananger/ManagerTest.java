@@ -61,5 +61,13 @@ public class ManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+    @Test
+    public void findZeroSymbols(){
+        Product[] actual = manager.searchBy( "28");
+        Product[] expected = {};
+
+        Assertions.assertArrayEquals(expected, actual);
+    }
+
 
 }
